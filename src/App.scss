@@ -1,0 +1,45 @@
+
+$drawerWidth: 240px ;
+
+.root {
+  display: flex;
+}
+
+.appBar {
+
+}
+
+.appBarShift {
+  width: calc(100% - #{$drawerWidth});
+  margin-left: $drawerWidth;
+}
+
+.drawer {
+  width: $drawerWidth;
+  flex-shrink: 0
+}
+.drawer-paper {
+  width: $drawerWidth;
+}
+
+.hide {
+  display: none;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: rgba(0,
+  0,
+  0,
+  0.54);
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 30px;
+  bottom: 20px
+}
